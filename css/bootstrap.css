@@ -6805,16 +6805,14 @@ button.close {
 
 }
 .intro{
-  background-color: #f6ad3a;
+  background-color: #e8041b;
   color:#ffffff;
   margin-right:0px;
-
-
-
+  min-height:465px;
 }
 .intro > p{
   font-size:14px;
-  line-height:26px;
+  line-height:22px;
   text-indent: 2em;
   font-family: Arial;
   
@@ -6824,6 +6822,7 @@ button.close {
   font-family: Arial;
   line-height:30px;
   padding-top:10px;
+  color:#b81414;
 }
 .imgright{
   padding-left:0px;
@@ -6836,6 +6835,7 @@ button.close {
   color:#bc541f;
   font-weight:700;
   font-size:24px;
+  padding-top:20px;
 }
 .brochure{
   width: 340px;
@@ -6874,7 +6874,7 @@ button.close {
 .bobg{
   z-index: 2;
   position: relative;
-   background: url(../img/back06.png) no-repeat left;min-height: 600px;
+   background: url(../img/back06.jpg) no-repeat left;min-height: 600px;
 
 }
 .botext {
@@ -6922,4 +6922,8 @@ button.close {
   padding-left:20px;
   color:#666666;
   line-height:24px;
+}
+.expoimg{
+  margin :30px 0;
+
 }
