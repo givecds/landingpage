@@ -6804,25 +6804,40 @@ button.close {
   margin:0;
 
 }
+@media (min-width: 768px) {
+  .intro{
+    min-height:300px;
+  }
+}
+@media (min-width: 992px) {
+  .intro{
+    min-height:407px;
+  }
+}
 .intro{
-  background-color: #e8041b;
+  background-color: #ad0003;
   color:#ffffff;
   margin-right:0px;
-  min-height:465px;
+  
 }
 .intro > p{
   font-size:14px;
-  line-height:22px;
+  line-height:26px;
   text-indent: 2em;
   font-family: Arial;
   
+}
+.intro a{
+  color:#ffffff;
+  font-weight: 800;
+  text-decoration: underline;
 }
 .introtitle{
   font-size:22px;
   font-family: Arial;
   line-height:30px;
   padding-top:10px;
-  color:#b81414;
+  
 }
 .imgright{
   padding-left:0px;
@@ -6835,7 +6850,7 @@ button.close {
   color:#bc541f;
   font-weight:700;
   font-size:24px;
-  padding-top:20px;
+  padding-top:10px;
 }
 .brochure{
   width: 340px;
@@ -6924,6 +6939,6 @@ button.close {
   line-height:24px;
 }
 .expoimg{
-  margin :30px 0;
+  margin :10px 0;
 
 }
